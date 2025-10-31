@@ -1,0 +1,3 @@
+[submodule "M03/BLOC1/CheckDungeon/CheckDungeon"]
+	path = M03/BLOC1/CheckDungeon/CheckDungeon
+	url = https://github.com/lucabulla34/CodeQuest-Template/tree/chapter/CheckDungeon
