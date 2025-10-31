@@ -1,3 +1,9 @@
 [submodule "M03/BLOC1/CheckDungeon/CheckDungeon"]
 	path = M03/BLOC1/CheckDungeon/CheckDungeon
 	url = https://github.com/lucabulla34/CodeQuest-Template/tree/chapter/CheckDungeon
+[submodule "M03/BLOC1/LootTheMine"]
+	path = M03/BLOC1/LootTheMine
+	url = https://github.com/lucabulla34/CodeQuest-Template/tree/chapter/LootTheMine
+[submodule "M03/BLOC1/TrainWizard/TrainWizard"]
+	path = M03/BLOC1/TrainWizard/TrainWizard
+	url = https://github.com/lucabulla34/CodeQuest-Template/tree/chapter/trainWizard
