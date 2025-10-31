@@ -1,5 +1,15 @@
-CREATE DATABASE agenda;
-
+Create role agenda
+superuser
+createdb
+createrole
+inherit
+login
+replication;
+ALTER user agenda with password 'agenda' ;
+CREATE database agenda with owner agenda;
+CREATE SCHEMA agenda;
+GRANT ALL PRIVILEGES ON DATABASE agenda TO agenda;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA agenda TO agenda;
 USE agenda;
 
 CREATE TABLE fitxa (
@@ -27,4 +37,4 @@ ALTER TABLE fitxa ALTER COLUMN Codi_Postal TYPE NUMERIC(5) USING Codi_Postal::NU
 
 ALTER TABLE fitxa ADD CONSTRAINT CK_Upper_Prov CHECK (Provincia = UPPER(Provincia))
 
-DROP CONSTRAINT
+DROP CONSTRAINT;
